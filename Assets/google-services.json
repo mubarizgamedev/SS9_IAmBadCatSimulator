@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "533951226099",
+    "project_id": "ss9-bad-cat-granny-life",
+    "storage_bucket": "ss9-bad-cat-granny-life.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533951226099:android:9c8b9b3b5232fca73c5786",
+        "android_client_info": {
+          "package_name": "com.ss.bad.cat.granny.life.simulator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFZkRKtgzP6OQX-iplBE-KXxHralcujFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

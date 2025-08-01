@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3755950081612591091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3755950081612591088}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3755950081612591088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755950081612591091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3755950083114754788}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3755950082899146877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3755950082899146874}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3755950082899146874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755950082899146877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3755950083114754788}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3755950083114754790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3755950083114754788}
+  - component: {fileID: 3755950083114754791}
+  m_Layer: 0
+  m_Name: Ads_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3755950083114754788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755950083114754790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3755950082899146874}
+  - {fileID: 3755950081612591088}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3755950083114754791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755950083114754790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c12be79df84e419ed25703750b5f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Test_Ads: 0
+  Internet: 0
+  Check_Firebase: 0
+  Ads_Purchase: 0
+  GDRP: 0
+  AndroidAdmob_ID:
+    ADMOB_APP_ID: ca-app-pub-7170209482972029~7090825484
+    ADMOB_APPOPEN_AD_ID: ca-app-pub-7170209482972029/2540050118
+    ADMOB_BANNER_AD_ID: ca-app-pub-7170209482972029/3669298954
+    ADMOB_INTERTITIAL_AD_ID: ca-app-pub-7170209482972029/8993777829
+    ADMOB_MEDIUMBANNER_AD_ID: ca-app-pub-7170209482972029/8523321764
+    ADMOB_REWARDED_AD_ID: ca-app-pub-7170209482972029/3962944435
+  IosAndroid_ID:
+    ADMOB_APP_ID: 
+    ADMOB_APPOPEN_AD_ID: 
+    ADMOB_BANNER_AD_ID: 
+    ADMOB_INTERTITIAL_AD_ID: 
+    ADMOB_MEDIUMBANNER_AD_ID: 
+    ADMOB_REWARDED_AD_ID: 
+  TestAdmob_ID:
+    ADMOB_APP_ID: ca-app-pub-7170209482972029~4210213643
+    ADMOB_APPOPEN_AD_ID: ca-app-pub-3940256099942544/9257395921
+    ADMOB_BANNER_AD_ID: ca-app-pub-3940256099942544/6300978111
+    ADMOB_INTERTITIAL_AD_ID: ca-app-pub-3940256099942544/1033173712
+    ADMOB_MEDIUMBANNER_AD_ID: ca-app-pub-3940256099942544/6300978111
+    ADMOB_REWARDED_AD_ID: ca-app-pub-7170209482972029/8094961876
+  ADMOB_ID:
+    ADMOB_APP_ID: 
+    ADMOB_APPOPEN_AD_ID: 
+    ADMOB_BANNER_AD_ID: 
+    ADMOB_INTERTITIAL_AD_ID: 
+    ADMOB_MEDIUMBANNER_AD_ID: 
+    ADMOB_REWARDED_AD_ID: 
+  CPValue: 0
+  appopenLoaded: 0
+  CPMRec: []
+  CPInterstitial: []
+  CPSmallBanner: []
+  RewardLoadingPanel: {fileID: 3755950082899146877}
+  AppOpenLoading: {fileID: 3755950081612591091}

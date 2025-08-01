@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Sound
+  - Bats
+  - Cupboard
+  - Fire
+  - Rain
+  - CatTrigger
+  - Hand
+  - Enemy
+  - EndPoint
+  - ForestBats
+  - Env
+  - Item
+  - Ball
+  - ChestBox
+  - Diamonds
+  - Key
+  - FxTemporaire
+  - Dart
+  - Pot
+  - Bed
+  - Glass
+  - Pickable
+  - Punch
+  - Gun
+  - Kitchen
+  - Plate
+  - ObjKey
+  - Quest
+  - Toy
+  - PlayerHand
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Granny
+  - Intertactible
+  - PlayerBody
+  - Granny
+  - Diamonds
+  - Postprocessing
+  - Reward
+  - Floor
+  - CatBody
+  - InHandItem
+  - OthersInteract
+  - Hit
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
