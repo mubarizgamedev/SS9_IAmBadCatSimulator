@@ -212,11 +212,18 @@ public class EnemyHandler : MonoBehaviour
 
 
     private void ChaseCat()
-    {        
+    {
         if (!isChasingCat) return;
 
-        m_Agent.SetDestination(catTransform.position);
-
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(catTransform.position, out hit, 5f, NavMesh.AllAreas))
+        {
+            m_Agent.SetDestination(hit.position);
+        }
+        else
+        {
+            m_Agent.ResetPath();
+        }
 
         chaseTimer += Time.deltaTime;
 
@@ -229,6 +236,7 @@ public class EnemyHandler : MonoBehaviour
         }
         else if (chaseTimer >= maxTimeGrannyChaseCat)
         {
+            NewObjectiveManager.Instance.GranniesBats(false);
             ResetState();
             WanderingChildGameObject.SetActive(true);
         }

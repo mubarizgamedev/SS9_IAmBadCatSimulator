@@ -8,7 +8,7 @@ public class BallonsBehaviour : MonoBehaviour
     public static event Action OnBalloonPopped;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Dart") || other.CompareTag("Player"))
+        if (other.CompareTag("Dart") || other.CompareTag("PlayerHand"))
         {
             Vector3 collisionPoint = other.transform.position;
             Destroy(gameObject);

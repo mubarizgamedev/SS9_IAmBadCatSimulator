@@ -102,7 +102,9 @@ public abstract class ObjectiveBase : MonoBehaviour
 
         OnLevelComplete?.Invoke();
 
-        NewObjectiveManager.Instance.fadeObject.SetActive(true);
+        //NewObjectiveManager.Instance.fadeObject.SetActive(true);
+
+        GameStateManager.Instance.MissionCompleted();
 
         if (AdmobAdsManager.Instance.Check_Firebase && Application.internetReachability != NetworkReachability.NotReachable)
         {
