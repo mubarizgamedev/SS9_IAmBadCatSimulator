@@ -3287,7 +3287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID_Live: 1
   ID_Single: 1
-  ID_Test: 1
+  ID_Test: 0
   Unity_Logger: 1
   Never_Sleep: 1
   Skip_Appopen: 0
@@ -7072,7 +7072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a1f13d7386c8ef408f4856473431c68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Test_Ads: 1
+  Test_Ads: 0
   Skip_Appopen: 0
   Appopen_Allow: 1
   ADMOB_APP_ID: ca-app-pub-7170209482972029~9906874630
@@ -7111,7 +7111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15fdf6a9a3bf7e54382800e0bc6d5e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Test_Ads: 1
+  Test_Ads: 0
   UAD: 0
   AppID: ca-app-pub-7170209482972029~9906874630
   SdkKey: SnV0pI1HDgnfiRax03k5X9uaCbTrsKL2P19HNNqEZhwUMVrxZFZrQVdeD_HawBgL8t0nTfoSy4BPgzHdHCssN0

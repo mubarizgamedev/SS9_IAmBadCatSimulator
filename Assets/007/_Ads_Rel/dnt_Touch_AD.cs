@@ -79,7 +79,7 @@ public class dnt_Touch_AD : MonoBehaviour
     void re_set()
     {
         CancelInvoke("Counter");
-        Debug.Log("Counter = Reset");
+        //Debug.Log("Counter = Reset");
         task();
     }
 

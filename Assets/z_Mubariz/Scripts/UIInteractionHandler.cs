@@ -21,7 +21,8 @@ public class UIInteractionHandler : MonoBehaviour
     public Button restartButton_Fail;
     public Button restartButton_Pause;
     public Button resumeButton;
-    public Button homeButton;
+    public Button homeButton_Pause;
+    public Button homeButton_Fail;
     public Button nextButton;
 
     [Space(5)]
@@ -70,7 +71,8 @@ public class UIInteractionHandler : MonoBehaviour
         restartButton_Fail.onClick.AddListener(OnRestartButtonPressed);
         restartButton_Pause.onClick.AddListener(OnRestartButtonPressed);
         resumeButton.onClick.AddListener(OnResumeButtonPressed);
-        homeButton.onClick.AddListener(OnHomeButtonPressed);
+        homeButton_Pause.onClick.AddListener(OnHomeButtonPressed);
+        homeButton_Fail.onClick.AddListener(OnHomeButtonPressed);
         nextButton.onClick.AddListener(OnNextMissionButtonPressed);
     }
 

@@ -51,7 +51,7 @@ public class InterstitialAdCall : MonoBehaviour
         {
             panelActivation = activationOfPanel;
         }
-        
+
         workAction = workToDo;
         loadingPanel.SetActive(true);
         currentTime = 0f;
@@ -76,11 +76,12 @@ public class InterstitialAdCall : MonoBehaviour
 
     private void OnLoadingComplete()
     {
-        //if (AdmobAdsManager.Instance)
-        //{
-        //    AdmobAdsManager.Instance.ShowInterstitial();
-        //}
-        MaxAdsManager.Instance.Btn_LS_Int();
+        if (AdmobAdsManager.Instance)
+        {
+            MaxAdsManager.Instance.Btn_LS_Int();
+            //AdmobAdsManager.Instance.ShowInterstitial();
+        }
+
 
         //mubari
         workAction();

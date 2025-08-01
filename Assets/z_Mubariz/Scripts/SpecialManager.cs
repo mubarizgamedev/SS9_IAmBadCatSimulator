@@ -77,26 +77,26 @@ public class SpecialManager : MonoBehaviour
     int val;
     void REWARDADFORBee()
     {
-        rewardLoadingPanel.SetActive(true);
+        //rewardLoadingPanel.SetActive(true);
         load_rew();
         Invoke(nameof(ShowRewardForBee), Timer_xXx);
 
     }
     void REWARDADFORFire()
     {
-        rewardLoadingPanel.SetActive(true);
+        //rewardLoadingPanel.SetActive(true);
         load_rew();
         Invoke(nameof(ShowRewardForFire), Timer_xXx);
     }
     void REWARDADFORPunch()
     {
-        rewardLoadingPanel.SetActive(true);
+        //rewardLoadingPanel.SetActive(true);
         load_rew();
         Invoke(nameof(ShowRewardForPunch), Timer_xXx);
     }
     void REWARDADFORShock()
     {
-        rewardLoadingPanel.SetActive(true);
+        //rewardLoadingPanel.SetActive(true);
         load_rew();
         Invoke(nameof(ShowRewardForShock), Timer_xXx);
     }
