@@ -7116,10 +7116,10 @@ MonoBehaviour:
   AppID: ca-app-pub-7170209482972029~9906874630
   SdkKey: SnV0pI1HDgnfiRax03k5X9uaCbTrsKL2P19HNNqEZhwUMVrxZFZrQVdeD_HawBgL8t0nTfoSy4BPgzHdHCssN0
   Skip_Int: 0
-  Ads_Int_Allow: 1
+  Ads_Int_Allow: 0
   InterID: d3fccd3bbceb56ea
   Skip_Rew: 0
-  Ads_Rew_Allow: 1
+  Ads_Rew_Allow: 0
   RewardedID: a59f624e951dd4c4
   Skip_App: 0
   Ads_Appopen_Allow: 0
