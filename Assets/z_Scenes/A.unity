@@ -1269,7 +1269,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768513767}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.038712, y: 2.003976, z: 4.3857512}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3287,7 +3287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID_Live: 1
   ID_Single: 1
-  ID_Test: 0
+  ID_Test: 1
   Unity_Logger: 1
   Never_Sleep: 1
   Skip_Appopen: 0
@@ -7072,7 +7072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a1f13d7386c8ef408f4856473431c68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Test_Ads: 0
+  Test_Ads: 1
   Skip_Appopen: 0
   Appopen_Allow: 1
   ADMOB_APP_ID: ca-app-pub-7170209482972029~9906874630
@@ -7111,7 +7111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15fdf6a9a3bf7e54382800e0bc6d5e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Test_Ads: 0
+  Test_Ads: 1
   UAD: 0
   AppID: ca-app-pub-7170209482972029~9906874630
   SdkKey: SnV0pI1HDgnfiRax03k5X9uaCbTrsKL2P19HNNqEZhwUMVrxZFZrQVdeD_HawBgL8t0nTfoSy4BPgzHdHCssN0
@@ -7875,6 +7875,6 @@ SceneRoots:
   - {fileID: 2002382208}
   - {fileID: 2120705001}
   - {fileID: 1726581186}
-  - {fileID: 287873876}
   - {fileID: 1768513770}
+  - {fileID: 287873876}
   - {fileID: 1340055210774439965}

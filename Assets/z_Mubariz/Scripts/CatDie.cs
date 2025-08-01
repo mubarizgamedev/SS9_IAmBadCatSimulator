@@ -8,6 +8,8 @@ public class CatDie : MonoBehaviour
     public float disableAfterDie;
     public void ChangeState()
     {
+        SFX_Manager.PlaySound(SFX_Manager.Instance.catCrySound);
+        SFX_Manager.PlaySound(SFX_Manager.Instance.catHitSound);
         catAnimator.SetBool("Die", true);
     }
 

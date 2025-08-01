@@ -8,7 +8,7 @@ public class RewardAdCall : MonoBehaviour
     public GameObject loadingPanel;
     public Image fillerImage;
     public Text loadingText;
-
+    public bool dontAllowLoadingPanel;
     [Space(5)]
     [Header("Prefs")]
     public string textToShow;
@@ -45,7 +45,15 @@ public class RewardAdCall : MonoBehaviour
 
         workAction = null;
         workAction = workToDo;
-        loadingPanel.SetActive(true);
+        if (dontAllowLoadingPanel)
+        {
+            loadingPanel.SetActive(false);
+        }
+        else
+        {
+            loadingPanel.SetActive(true);
+        }
+;
         currentTime = 0f;
         isLoading = true;
         fillerImage.fillAmount = 0f;

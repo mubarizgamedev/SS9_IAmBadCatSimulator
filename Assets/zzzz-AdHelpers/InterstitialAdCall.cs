@@ -8,6 +8,7 @@ public class InterstitialAdCall : MonoBehaviour
     public GameObject loadingPanel;
     public Image fillerImage;
     public Text loadingText;
+    public bool dontAllowLoadingPanel;
 
 
     [Space(5)]
@@ -42,8 +43,15 @@ public class InterstitialAdCall : MonoBehaviour
 
 
 
-
-        panelActivation = activationOfPanel;
+        if (dontAllowLoadingPanel)
+        {
+            loadingPanel.SetActive(false);
+        }
+        else
+        {
+            panelActivation = activationOfPanel;
+        }
+        
         workAction = workToDo;
         loadingPanel.SetActive(true);
         currentTime = 0f;
